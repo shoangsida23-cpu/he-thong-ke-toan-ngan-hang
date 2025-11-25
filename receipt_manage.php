@@ -1,0 +1,32 @@
+<?php include 'partials/header.php'; ?>
+<?php include 'partials/sidebar.php'; ?>
+
+<main class="main-content">
+  <h2 class="page-title">Tra cứu / Sửa / Xóa phiếu Thu - Chi</h2>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Mã Phiếu</th>
+        <th>Ngày</th>
+        <th>Loại</th>
+        <th>Số tiền</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>PT001</td>
+        <td>2025-11-25</td>
+        <td>Thu</td>
+        <td>0</td>
+        <td>
+          <button class="btn small">Sửa</button>
+          <button class="btn small danger">Xóa</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+<?php include 'partials/footer.php'; ?>

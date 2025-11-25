@@ -1,0 +1,27 @@
+<?php include 'partials/header.php'; ?>
+<?php include 'partials/sidebar.php'; ?>
+
+<main class="main-content">
+  <h2 class="page-title">Lập phiếu Thu / Chi</h2>
+
+  <form class="form-layout" method="post" action="receipt_create.php">
+    <label>Ngày lập phiếu</label>
+    <input type="date" name="date">
+
+    <label>Loại</label>
+    <select name="type">
+      <option>Phiếu Thu</option>
+      <option>Phiếu Chi</option>
+    </select>
+
+    <label>Số tiền</label>
+    <input type="number" name="amount" placeholder="Nhập số tiền">
+
+    <label>Nội dung</label>
+    <textarea name="note" rows="4"></textarea>
+
+    <button class="btn primary" type="submit">Lưu phiếu</button>
+  </form>
+</main>
+
+<?php include 'partials/footer.php'; ?>

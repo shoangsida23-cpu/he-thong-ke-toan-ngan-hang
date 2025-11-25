@@ -1,11 +1,17 @@
+Accounting Branch Management - Static PHP UI (from user's screenshots)
 
-  # Accounting System Development
+How to run:
+1. Make sure you have PHP installed.
+2. From project root run:
+   php -S localhost:8000
+3. Open http://localhost:8000/login.php
 
-  This is a code bundle for Accounting System Development. The original project is available at https://www.figma.com/design/GqGpSTrofSY2VTMu7pShId/Accounting-System-Development.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+Project structure:
+- login.php
+- dashboard.php
+- receipt_create.php
+- receipt_manage.php
+- report_summary.php
+- partials/header.php, sidebar.php, footer.php
+- assets/css/style.css
+- assets/images/ (your uploaded screenshots copied here)

@@ -1,0 +1,30 @@
+/* Layout base */
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f6fa;color:#222}
+.main-content{margin-left:220px;padding:24px}
+.sidebar{position:fixed;left:0;top:0;width:220px;height:100vh;background:#1e2a38;color:white;padding-top:70px;display:flex;flex-direction:column}
+.sidebar a{padding:14px 18px;color:#fff;text-decoration:none;font-size:15px}
+.sidebar a:hover{background:#2f3d4e}
+.app-header{position:fixed;left:220px;top:0;right:0;height:70px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 20px;box-shadow:0 2px 4px rgba(0,0,0,0.1)}
+.app-footer{text-align:center;padding:18px;color:#777;margin-top:40px}
+
+/* Login */
+.login-screen{display:flex;align-items:center;justify-content:center;height:100vh;background:white}
+.login-wrapper{width:360px;padding:32px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.08);background:white}
+.login-form label{margin-top:12px;display:block;font-weight:600}
+.login-form input{width:100%;padding:10px;margin-top:4px;border:1px solid #ccc;border-radius:6px}
+
+/* Buttons */
+.btn{border:none;padding:10px 18px;border-radius:6px;cursor:pointer}
+.btn.primary{background:#007bff;color:white}
+.btn.small{padding:6px 10px;font-size:13px}
+.btn.danger{background:#d9534f;color:white}
+
+/* Tables */
+.data-table{width:100%;border-collapse:collapse;margin-top:20px;background:white}
+.data-table th,.data-table td{padding:12px;border:1px solid #ddd}
+.data-table th{background:#e9eef5;text-align:left}
+
+/* Stats grid */
+.stats-grid{display:flex;gap:18px;margin-top:12px}
+.stat-box{background:white;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(10,10,20,0.06);flex:1;text-align:center}
+.stat-value{font-weight:700;font-size:18px;margin-top:8px}
